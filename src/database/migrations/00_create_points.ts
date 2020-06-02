@@ -16,7 +16,7 @@ export async function up(knex: Knex) {
 }
 
 export async function down(knex: Knex) {
-    // voltar atras (deletar a tabela)
+    // (deletar a tabela)
     return knex.schema.dropTable('point')
 }
 
