@@ -40,8 +40,6 @@ const Detail = () => {
       })
     },[])
 
-    console.log(route.params)
-
     function handleNavigateBack() {
         navigation.goBack()
     }
