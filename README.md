@@ -116,6 +116,11 @@ Para rodar no mobile, é necessário que o computador onde o servidor (pasta ser
  
 Seu navegador será aberto automaticamente executando o Metro Bundler, contendo entre algumas informações, um QR Code, para executar, instale no seu celular um aplicativo chama EXPO 
  
+<p align="center"><strong>EXPO</strong></p>
+<p align="center">
+<img src=".github/expo_appstore.png" width="350"/>
+<img src=".github/expo_playstore.png" width="350"/>
+ 
 Abra o aplicativo EXPO, clique em Scan QR Code.
 
 🎉 **Pronto.**
