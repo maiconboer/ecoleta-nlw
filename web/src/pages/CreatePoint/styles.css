@@ -159,40 +159,6 @@
     background: #2FB86E;
 }
 
-#page-create-point .message-sucess {
-    display: none;
-}
-
-#page-create-point .message-sucess.active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding-bottom: 500px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2010px;
-    width: 100%;
-    background-color: rgba(0,0,0,.95);
-    z-index: 1000;
-}
-
-.message-sucess.active svg {
-    color: #2FB86E;
-    width: 100px;
-    height: 100px;
-}
-
-.message-sucess.active h3 {
-    color: #FFF;
-    margin: 20px auto 10px;
-}
-
-.message-sucess.active p {
-    color: #2FB86E;
-}
-
 .items-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

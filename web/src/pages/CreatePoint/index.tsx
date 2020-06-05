@@ -140,19 +140,17 @@ const CreatePoint = () => {
                 data.append('image', selectedFile)
             }
 
+            alert('Cadastro realizado com sucesso!')
+
         await api.post('points', data)
         handleGoHomeRegisterOk()
     }
 
     function handleGoHomeRegisterOk() {
-        const modalMessageSucess = document.querySelector('.message-sucess')
-
-        modalMessageSucess?.classList.add('active')
-        document.body.style.overflow='hidden'
+        
+        // inserir funcionalidade/modal aviso de cadastro concluído
 
         setTimeout(() => {
-            modalMessageSucess?.classList.remove('active')
-            document.body.style.overflow='visible'
             history.push('/')
         }, 3000);
     }
@@ -293,15 +291,11 @@ const CreatePoint = () => {
                     </ul>
                 </fieldset>
 
-                <button type="submit">
-                    Cadastrar ponto de coleta
+                <button type="submit" >
+                    Cadastrar ponto de coleta                  
                 </button>
             </form>
-            <div className="message-sucess ">
-                <FiCheckCircle />
-                <h3>Cadastro concluído</h3>
-                <p>Voltando para home...</p>         
-            </div>
+           
         </div>
     )
 }
