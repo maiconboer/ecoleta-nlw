@@ -8,8 +8,8 @@ Um Marketplace, uma conexão entre empresas/entidades que coletam resíduos (org
 
 <p align="center"><strong>MOBILE</strong></p>
 <p align="center">
-<img src=".github/mobile1.jpg" width="300"/>
-<img src=".github/mobile2.jpg" width="300"/>
+<img src=".github/mobile1.jpg" width="298"/>
+<img src=".github/mobile2.jpg" width="298"/>
 <img src=".github/mobile3.jpg" width="300"/>
 
 
