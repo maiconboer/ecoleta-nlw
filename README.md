@@ -8,18 +8,18 @@ Um Marketplace, uma conexão entre empresas/entidades que coletam resíduos (org
 
 <p align="center"><strong>MOBILE</strong></p>
 <p align="center">
-<img src=".github/mobile1.jpg" width="298"/>
-<img src=".github/mobile2.jpg" width="298"/>
-<img src=".github/mobile3.jpg" width="300"/>
+<img src=".github/mobile1.jpg" width="290"/>
+<img src=".github/mobile2.jpg" width="290"/>
+<img src=".github/mobile3.jpg" width="290"/>
 
 
 ------------------------------------------
 
 <p align="center"><strong>DESKTOP</strong></p>
 <p align="center">
-<img src=".github/web.png" width="450"/>
-<img src=".github/web2.png" width="450"/>
-<img src=".github/web3.png" width="905"/>
+<img src=".github/web.png" width="420"/>
+<img src=".github/web2.png" width="420"/>
+<img src=".github/web3.png" width="900"/>
 </p>
 
 
