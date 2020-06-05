@@ -1,4 +1,5 @@
-# ♻️ Projeto Ecoleta - Next Level Week #01 - Rocketseat 🚀💺
+# ♻️ Projeto Ecoleta - Next Level Week #01   
+# Rocketseat 🚀💺
 
 **Projeto, voltado para fins ecológicos.**  
 
