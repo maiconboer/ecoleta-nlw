@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Feather as Icon} from '@expo/vector-icons'
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation, useRoute } from '@react-navigation/native'
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView, SafeAreaView, Alert } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 import { SvgUri } from 'react-native-svg'
@@ -15,10 +15,15 @@ interface Item {
 
 interface Point {
 	id: number
-	nome: string
+	name: string
 	image: string
 	latitude: number
 	longitude: number
+}
+
+interface Params {
+  uf: string
+  city: string
 }
 
 const Points = () => {
@@ -26,9 +31,14 @@ const Points = () => {
 	const [items, setItems] = useState<Item[]>([])
 	const [points, setPoints] = useState<Point[]>()
 	const [selectedItems, setSelectedItems] = useState<number[]>([])
-	const [initialPosition, setInitialPosition] = useState<[number, number]>([0, 0])
-	const navigation = useNavigation();
-	
+  const [initialPosition, setInitialPosition] = useState<[number, number]>([0, 0])
+  
+  const navigation = useNavigation();
+  const route = useRoute()
+
+  const routeParams = route.params as Params
+  
+
 	useEffect(() => {
 		async function loadPosition () {
 			const { status } = await Location.requestPermissionsAsync()
@@ -58,14 +68,14 @@ const Points = () => {
 	useEffect(() => {
 		api.get('points', {
 			params: {
-				city: 'Joinville',
-				uf: 'SC',
-				items: [1, 2]
+				city: routeParams.city,
+				uf: routeParams.uf,
+				items: selectedItems
 			}
 		}).then(response => {
 			setPoints(response.data)
 		})
-	},[])
+	},[selectedItems])
 
     function handleNavigateBack() {
         navigation.goBack()
@@ -106,7 +116,7 @@ const Points = () => {
 						latitude: initialPosition[0],
 						longitude: initialPosition[1],
 						latitudeDelta: 0.014,
-						longitudeDelta: 0.014,
+						longitudeDelta: 0.014
 					}}>
 					
 						{points?.map(point => (
@@ -121,7 +131,7 @@ const Points = () => {
 						>
 							<View style={styles.mapMarkerContainer}>
 								<Image style={styles.mapMarkerImage} source={{ uri: point.image}}/>
-								<Text style={styles.mapMarkerTitle}>{point.nome}</Text>
+								<Text style={styles.mapMarkerTitle}>{point.name}</Text>
 							</View>
 
 						</Marker>
