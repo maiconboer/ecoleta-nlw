@@ -4,6 +4,27 @@
 
 Um Marketplace, uma conexão entre empresas/entidades que coletam resíduos (orgânicos e inorgânicos) às pessoas que necessitam descartá-los.  
 
+-----------------------------------------------------------
+
+<p align="center"><strong>MOBILE</strong></p>
+<p align="center">
+<img src=".github/mobile1.jpg" width="300"/>
+<img src=".github/mobile2.jpg" width="300"/>
+<img src=".github/mobile3.jpg" width="300"/>
+
+
+------------------------------------------
+
+<p align="center"><strong>DESKTOP</strong></p>
+<p align="center">
+<img src=".github/web.png" width="450"/>
+<img src=".github/web2.png" width="450"/>
+<img src=".github/web3.png" width="905"/>
+</p>
+
+
+
+
 É possível cadastrar pontos de coleta na aplicação (entidades/empresas), de uma forma fácil, os dados armazenados são:  
 
 - Imagem/foto  
