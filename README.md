@@ -38,8 +38,6 @@ Um Marketplace, uma conexão entre empresas/entidades que coletam resíduos (org
 Cadastrando estes pontos de coleta, usuários da aplicação fácilmente conseguem localizar estes pontos, filtrando-os pela cidade/uf desejada e quais items estas empresas coletam.   
 
 
-fotos do projeto web e mobile
-
 -------------------------------------------------------------------------------------------------------
 
 ## :wrench: Tecnologias e padrões utilizados:
