@@ -36,8 +36,8 @@ Um Marketplace, uma conexão entre empresas/entidades que coletam resíduos (org
 - Estado  
 
 
-### Consome api do IBGE para retornar Estados e Municípios, para serem selecionados  
-### Mapa Leaflet  
+#### Consome api do IBGE para retornar Estados e Municípios, para serem selecionados  
+#### Mapa Leaflet  
 
 
 Cadastrando estes pontos de coleta, usuários da aplicação fácilmente conseguem localizar estes pontos, filtrando-os pela cidade/uf desejada e quais items estas empresas coletam.   
